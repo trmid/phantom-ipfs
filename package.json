@@ -1,0 +1,27 @@
+{
+  "name": "phantom-ipfs",
+  "version": "0.1.0",
+  "description": "A service worker gateway for front-end JS integrations.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ipfs",
+    "gateway",
+    "service-worker",
+    "javascript",
+    "typescript"
+  ],
+  "author": "trmid",
+  "license": "MIT",
+  "dependencies": {
+    "@helia/unixfs": "^1.2.1",
+    "helia": "^1.0.0",
+    "libp2p": "^0.43.2"
+  },
+  "devDependencies": {
+    "@types/serviceworker": "^0.0.67"
+  }
+}
